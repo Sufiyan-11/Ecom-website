@@ -3,3 +3,19 @@
     top: 238px!important;
     right: 255px!important;
 }
+.style{
+    list-style-type: none!important;
+}
+.nav-link:hover{
+color: #1ea8df!important;
+}
+@media only screen and (max-width:600px)
+{
+    .image{
+        width: 100%;
+    }
+    .pst{
+        position: absolute;
+        bottom: 50px;
+    }
+}

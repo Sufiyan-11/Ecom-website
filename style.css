@@ -6,8 +6,18 @@
 .style{
     list-style-type: none!important;
 }
+.txtposi{
+    margin-top: 145px; 
+}
+.googlefont{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
 .nav-link:hover{
 color: #1ea8df!important;
+}
+.image1{
+    visibility: hidden;
 }
 @media only screen and (max-width:600px)
 {
@@ -24,5 +34,15 @@ color: #1ea8df!important;
    }
    .hcolor1{
     margin-right: 20px;
+   }
+   .button1{
+    visibility: hidden;
+   }
+   .image1{
+    visibility: visible;
+    height: 60px;
+    position: absolute;
+    top: 471px;
+    left: 242px;
    }
 }
